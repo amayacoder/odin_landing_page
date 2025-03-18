@@ -8,11 +8,11 @@ body {
 
 .header {
     background-color: #1F2937;
-    color: white;
+    color: #F9FAF8;
     text-align: center;
     display: flex;
     justify-content: space-between;
-    padding: 10px 100px;
+    padding: 10px 150px;
     align-items: center;
 }
 
@@ -32,5 +32,57 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
+}
+
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 50px 150px;
+    gap: 20px;
+}
+
+.main-text {
+    text-align: left;
+    flex:1;
+}
+
+.main-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.main-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 20px 0;
+}
+
+.main-text button {
+    padding: 10px 20px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.main-image {
+    display: flex;
+    flex:1;
+    justify-content: right;
+    align-items: center;
+}
+
+.main-image img {
+    max-width: 100%;
+    min-width: 200px;
+    height: auto;
+    object-fit: contain;
 }
