@@ -125,3 +125,27 @@ a {
     text-wrap: wrap;
     max-width: 200px;
 }
+
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDD1B0;
+    padding: 80px 300px;
+    gap: 20px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #28283E;
+}
+
+.author {
+    font-size: 24px;
+    color: #28283E;
+    font-weight: 700;
+    align-self: flex-end;
+}
