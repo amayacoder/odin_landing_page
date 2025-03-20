@@ -94,3 +94,34 @@ a {
     height: auto;
     object-fit: contain;
 }
+
+.sub-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCF7ED;
+    padding: 50px 200px;
+    gap: 20px;
+}
+
+.subheading {
+    font-size: 36px;
+    color: #28283E;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sub-images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.info {
+    text-align: center;
+    text-wrap: wrap;
+    max-width: 200px;
+}
