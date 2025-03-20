@@ -1,3 +1,11 @@
+/* CSS HEX 
+--space-cadet: #28283E;
+--flame: #E3683B;
+--apricot: #FDD1B0;
+--floral-white: #FCF7ED;
+--paynes-gray: #4E5F7D;
+*/
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -7,12 +15,12 @@ body {
 }
 
 .header {
-    background-color: #1F2937;
-    color: #F9FAF8;
+    background-color: #28283E;
+    color: #FCF7ED;
     text-align: center;
     display: flex;
     justify-content: space-between;
-    padding: 10px 150px;
+    padding: 10px 200px;
     align-items: center;
 }
 
@@ -32,7 +40,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #FDD1B0;
 }
 
 .main-section {
@@ -40,8 +48,8 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
-    padding: 50px 150px;
+    background-color: #28283E;
+    padding: 50px 200px;
     gap: 20px;
 }
 
@@ -52,21 +60,21 @@ a {
 
 .main-text h1 {
     font-size: 48px;
-    color: #F9FAF8;
+    color: #FCF7ED;
     font-weight: 900;
     margin: 0;
 }
 
 .main-text p {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #FDD1B0;
     margin: 20px 0;
 }
 
 .main-text button {
     padding: 10px 20px;
-    background-color: #3882F6;
-    color: #F9FAF8;
+    background-color: #E3683B;
+    color: #FCF7ED;
     border: none;
     border-radius: 5px;
     font-size: 16px;
